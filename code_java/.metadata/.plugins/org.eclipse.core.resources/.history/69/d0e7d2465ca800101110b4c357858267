@@ -4,7 +4,6 @@ public class HelloWorld {
 	
 	public void heloWorldDemo() {
 		System.out.println("Hello Java World ");
-		System.out.println("new commit");
 	}
 
 	public static void main(String[] args) {

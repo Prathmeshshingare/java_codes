@@ -1,0 +1,18 @@
+package com.demo.pro;
+
+public class DemoDataType {
+	
+	public void ckDemoDataType() {
+		int num=10;
+		System.out.println("num is number:"+num);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DemoDataType ddt=new DemoDataType();
+		
+		ddt.ckDemoDataType();
+
+	}
+
+}

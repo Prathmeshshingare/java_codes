@@ -1,0 +1,19 @@
+package com.demo.pro;
+
+public class LeapYear {
+	void findLEapYear(int year) {
+		if(year % 4 == 0) {
+			System.out.println("It is an Leap YEar");
+		}
+		else
+			System.out.println(year+":is not a leap year");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LeapYear ly=new LeapYear();
+		ly.findLEapYear(1998);
+
+	}
+
+}

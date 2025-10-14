@@ -1,0 +1,21 @@
+package com.demo.pro;
+
+import java.util.Scanner;
+
+public class InputByScannerClass {
+	Scanner sc=new Scanner(System.in);
+	void inputByScanner() {
+		System.out.println("Enter any  nnumber:");
+		int num=sc.nextInt();
+		System.out.println(num+":Your Entered Number Is");
+	}
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		InputByScannerClass ibsc=new InputByScannerClass();
+		ibsc.inputByScanner();
+
+	}
+
+}

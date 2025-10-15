@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.demo.pro.LeapYear"/>
+    <fullyQualifiedTypeName name="java.lang.IncompatibleClassChangeError"/>
+    <fullyQualifiedTypeName name="com.demo.pro.InputByScannerClass"/>
+</qualifiedTypeNameHistroy>

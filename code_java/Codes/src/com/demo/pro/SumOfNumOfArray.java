@@ -1,0 +1,22 @@
+package com.demo.pro;
+
+public class SumOfNumOfArray {
+	
+	void sumOfArray(int arr[]) {
+		int sum=0;
+		for(int i=0;i<arr.length;i++) {
+			sum=sum+arr[i];
+			//sum +=arr[i];			
+		}
+		System.out.println("Sum of Numbers of Arrays:"+sum);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub	
+		int arr[]= {3,2,4,5,6};
+		SumOfNumOfArray na=new SumOfNumOfArray();
+		na.sumOfArray(arr);
+
+	}
+
+}

@@ -3,6 +3,8 @@ package com.demo.pro;
 public class SwapTwoNumbersWay1 {
 
 	void swapTwoNumber(int a, int b) {
+		a = 10;
+		b = 20;
 		System.out.println("a before swap:" + a);
 		System.out.println("b before swap:" + b);
 		int temp = a;

@@ -1,0 +1,20 @@
+package com.demo.pro;
+
+public class SwapTwoNumbersWay1 {
+	
+	void swapTwoNumber(int a,int b) {
+		 a=10;
+		 b=20;
+		int temp=a;
+		    a=b;
+		    b=temp;		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SwapTwoNumbersWay1 stm=new SwapTwoNumbersWay1();
+		stm.swapTwoNumber(10,20);
+		 
+	}
+
+}
